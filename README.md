@@ -12,3 +12,6 @@ Son un conjunto de pasos o instrucciones detalladas para resolver un problema es
 # Estructuras de datos
 <img src="https://www.df.cl/noticias/site/artic/20210125/imag/foto_0000000220210125121821.jpg" alt="bodega con productos" width="280">
 Son formas que permiten organizar los datos en tiempo de ejecución de nuestro programa. Estas estructuras nos permiten almacenar, organizar y manipular los datos de forma eficiente. Es por esto que tener una visión clara y saber el uso de cada una de las estructuras de datos, nos favorecerá cumplir con los requerimientos de nuestros programas.
+
+# Big O Notation
+Es una notación matemática que describe la eficiencia de un algoritmo. En otras palabras, nos permite comparar la eficiencia de dos algoritmos y saber cuál es el mejor para resolver un problema específico.
