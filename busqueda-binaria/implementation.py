@@ -1,6 +1,7 @@
 """ Implementación del algoritmo de búsqueda binaria """
 
 from typing import Optional
+from math import log2
 
 
 def binary_search(lst: list, target: int) -> Optional[int]:
@@ -31,6 +32,10 @@ if __name__ == "__main__":
     numbers: list[int] = [i for i in range(1, 101)]
     target: int = 41
     result: int = binary_search(numbers, target)
+    TOTAL_NUMBER_OF_STEP = log2(len(numbers))
+
+    print(f"Este algoritmo (Binary Search) tomará como máximo {round(TOTAL_NUMBER_OF_STEP)} pasos para encontrar el número {target} en la lista.\n")
+    print("\t\t=== Resultado Algoritmo ===")
 
     if result is not None:
         print(f"El número {target} se encuentra en la posición {result} de la lista.")
