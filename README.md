@@ -25,4 +25,6 @@ Dentro de esta notación tendrémos diferentes tipos de tiempo de ejecución, lo
 - `O(n^2)`: Tiempo de ejecución cuadrático.
 - `O(2^n)`: Tiempo de ejecución exponencial.
 
+<img src="https://cdn-media-1.freecodecamp.org/images/1*KfZYFUT2OKfjekJlCeYvuQ.jpeg" alt="grafica big o notation" width="320">
+
 Para este caso, cada uno de estos tiempos de ejecución se verá reflejado en el tiempo que tarda un algoritmo en ejecutarse, por lo que es importante tener en cuenta el tiempo de ejecución de cada uno de los algoritmos que implementemos.
