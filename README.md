@@ -15,3 +15,14 @@ Son formas que permiten organizar los datos en tiempo de ejecución de nuestro p
 
 # Big O Notation
 Es una notación matemática que describe la eficiencia de un algoritmo. En otras palabras, nos permite comparar la eficiencia de dos algoritmos y saber cuál es el mejor para resolver un problema específico.
+
+Dentro de esta notación tendrémos diferentes tipos de tiempo de ejecución, los cuales son:
+
+- `O(1)`: Tiempo de ejecución constante.
+- `O(log n)`: Tiempo de ejecución logarítmico.
+- `O(n)`: Tiempo de ejecución lineal.
+- `O(n log n)`: Tiempo de ejecución logarítmico lineal.
+- `O(n^2)`: Tiempo de ejecución cuadrático.
+- `O(2^n)`: Tiempo de ejecución exponencial.
+
+Para este caso, cada uno de estos tiempos de ejecución se verá reflejado en el tiempo que tarda un algoritmo en ejecutarse, por lo que es importante tener en cuenta el tiempo de ejecución de cada uno de los algoritmos que implementemos.

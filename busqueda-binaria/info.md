@@ -39,3 +39,6 @@ Ahora, cálculemos el tiempo de ejecución de la búsqueda binaria:
 \end{equation}
 
 Esto nos indica que para encontrar un elemento en una lista de 25 elementos, se deben realizar 4.64 o 5 divisiones en la lista para encontrar el elemento que se está buscando. En cambio, si queremos implementar laa búsqueda tradicional, esto nos tomaráa 25 pasos para encontrar el elemento que se está buscando.
+
+# Resumen
+La búsqueda binaria es un algoritmo bastante eficiente para encontrar elementos en una lista, ya que su tiempo de ejecución es de `O(log n)`, lo que nos indica que su tiempo de ejecución es mucho menor que el de la búsqueda tradicional o búsqueda lineal, el cual es de `O(n)`, esto quiere decir que la búsqueda tradicional irá aumentando su tiempo de ejecución de manera lineal a medida que la lista crezca, por ende si tenemo pocos elementos en nuestra lista, no notaremos la diferencia entre la búsqueda binaria y la búsqueda tradicional, pero si tenemos una lista con muchos elementos, notaremos la diferencia de tiempo de ejecución entre ambos algoritmos.
