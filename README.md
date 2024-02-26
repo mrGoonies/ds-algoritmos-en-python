@@ -28,3 +28,32 @@ Dentro de esta notación tendrémos diferentes tipos de tiempo de ejecución, lo
 <img src="https://cdn-media-1.freecodecamp.org/images/1*KfZYFUT2OKfjekJlCeYvuQ.jpeg" alt="grafica big o notation" width="320">
 
 Para este caso, cada uno de estos tiempos de ejecución se verá reflejado en el tiempo que tarda un algoritmo en ejecutarse, por lo que es importante tener en cuenta el tiempo de ejecución de cada uno de los algoritmos que implementemos.
+
+
+# Funcionamiento de la memoria en nuestro sistema
+Antes de empezar a conocer sobre estructuras de datos y algoritmos, es importante conocer como funciona la memoria en nuestro sistema a la hora de almacenar datos. En este caso, la memoria de nuestro sistema se divide en dos partes:
+
+- **Stack**: En esta parte de la memoria se almacenan las variables y las funciones que se están ejecutando en el momento. Esta parte de la memoria es muy rápida y se utiliza para almacenar datos temporales.
+
+- **Heap**: En esta parte de la memoria se almacenan los objetos que se crean en tiempo de ejecución. Esta parte de la memoria es más lenta que el stack, pero nos permite almacenar una mayor cantidad de datos.
+
+Entonces, cuando creamos una variable en Python, esta se almacena en el stack, pero si creamos un objeto, este se almacena en el heap pero su dirección estará almacenada en el stack.
+
+# Estructuras de datos
+
+Ya que conocemos algunos de los algoritmos más importantes y tenemos una comprensión general de como almacena nuestra computadora los datos de nuestro programa, es hora de conocer las estructuras de datos y lo más importante, saber cuándo utilizar cada una de ellas.
+
+
+## Arrays y Linked List
+
+Ambas estructuras le piden a tu computadora que les reserve un espacio en memoria.
+
+### Listas o Arrays
+Las listas son una de las estructuras de datos más utilizadas en Python y en la informática general, estas nos permiten almacenar un conjunto de elementos de forma ordenada en la memoria de nuestro sistema y de **forma continua  (una tras de otra) en memoria**. Las listas son mutables, es decir, podemos modificar su contenido una vez que han sido creadas.
+
+El gran problema de esta estructura de datos, es que dependeremos de la cantidad de memoria que tengamos en nuestro sistema, con esto quiero decir, cada elemento se almacena continuamene en memoria o una tras otro (como se veráa en la imagen).
+<img src="https://i0.wp.com/javachallengers.com/wp-content/uploads/2023/01/array.png?resize=500%2C350&ssl=1" alt="refencia de memoria" width="250">
+
+Entonces, si queremos aagregar otro elemento, este se tendrá que almacenar en otra parte de la memoria, lo que nos llevará a tener que buscar en otra parte de la memoria para obtener el siguiente elemento. Este proceso nos genera un gran problema y ya que si estaremos almacenando continuamente datos dentro de un arreglo lista, este bajaráa el performance de nuestro programa y cómputo pero hay una forma de solucionarlo, la alternativa a este proceso es asignara un espacio en memoria al momento de declarar esta estructura de datos pero puede pasar lo mismo, que necesitemos más espacio en memoria para almacenar más datos.
+
+### Linked List (Listas enlazadas)
