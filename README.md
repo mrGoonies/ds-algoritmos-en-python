@@ -57,3 +57,19 @@ El gran problema de esta estructura de datos, es que dependeremos de la cantidad
 Entonces, si queremos aagregar otro elemento, este se tendrá que almacenar en otra parte de la memoria, lo que nos llevará a tener que buscar en otra parte de la memoria para obtener el siguiente elemento. Este proceso nos genera un gran problema y ya que si estaremos almacenando continuamente datos dentro de un arreglo lista, este bajaráa el performance de nuestro programa y cómputo pero hay una forma de solucionarlo, la alternativa a este proceso es asignara un espacio en memoria al momento de declarar esta estructura de datos pero puede pasar lo mismo, que necesitemos más espacio en memoria para almacenar más datos.
 
 ### Linked List (Listas enlazadas)
+Al igual que un arreglo, esta estructura de datos nos permite almacenar un conjunto de elementos de forma ordenada en memoria pero la gran característica es que almacena los elemento de forma **no contínua**, esto quiere decir, que los elementos se almacenaran en diferentes partes de la memoria de nuestro sistema o donde haya espacio disponible. Entonces, ¿Cómo accederemos a los datos de forma ordenada?, cada elemento tiene la dirección de memoria del elemento sucesor, por lo que al momento de acceder a un elemento, este nos dará la dirección de memoria del siguiente elemento.
+
+<img src="https://www.sahinarslan.tech/static/dd6ba2ed60f26c0811ad5052b66ad121/82d6d/linkedlistmemoryallocation.jpg" alt="Diferencias entre linked list y array">
+
+### Diferencias entre ambas estructuras de datos
+
+- Las listas enlazadas son ideales para ir almacenando datos de forma dinámica, es decir, no sabemos cuántos elementos vamos a almacenar en nuestra estructura de datos pero no lo son para acceder de forma aletaria a los datos, ya que tendremos que recorrer toda la lista para obtener el elemento deseado.
+
+- Si queremos añadir elementos en la mitad de nuestra estructura de datos nuevos elementos, la lista enlazada será la indicada porque una vez que tengamos la dirección de memoria del elemento deseado, podremos añadir un nuevo elemento en cualquier parte de la lista y no tendremos que buscar una nueva dirección en memoria donde se almacenen los datos de forma contínua, y esto sucede igual al momento de realizar eliminaciones de elementos.
+
+- Los arreglos como dijimos, son bastante buenos a la hora de acceder a elementos de forma aleatoria, ya que almacenan los elementos de forma contínua en memoria y está optimizado para acceder a los elementos de forma rápida.
+
+
+- También los arreglos utilizan un poco menos de memoria al almacenar los elementos, ya que no necesitamos almacenar la dirección de memoria del elemento sucesor, como lo hace la lista enlazada y es por esto que un arreglo es más utilizado en la mayoría de los casos.
+
+**Podemos concluir que ambas estructuras de datos tienen sus ventajas y desventajas, por lo que es importante saber cuándo utilizar cada una de ellas e incluso podemos hacer uso de una estructura de datos híbrida, donde almacenamos un conjunto de listas enlazadas dentro de un arreglo.**
