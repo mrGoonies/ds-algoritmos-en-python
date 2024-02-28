@@ -65,9 +65,9 @@ Al igual que un arreglo, esta estructura de datos nos permite almacenar un conju
 
 - Las listas enlazadas son ideales para ir almacenando datos de forma dinámica, es decir, no sabemos cuántos elementos vamos a almacenar en nuestra estructura de datos pero no lo son para acceder de forma aletaria a los datos, ya que tendremos que recorrer toda la lista para obtener el elemento deseado.
 
-- Si queremos añadir elementos en la mitad de nuestra estructura de datos nuevos elementos, la lista enlazada será la indicada porque una vez que tengamos la dirección de memoria del elemento deseado, podremos añadir un nuevo elemento en cualquier parte de la lista y no tendremos que buscar una nueva dirección en memoria donde se almacenen los datos de forma contínua, y esto sucede igual al momento de realizar eliminaciones de elementos.
+- Si queremos añadir elementos en la mitad de nuestra estructura de datos nuevos elementos, la lista enlazada será la indicada porque una vez que tengamos la dirección de memoria del elemento deseado, podremos añadir un nuevo elemento en cualquier parte de la lista y no tendremos que buscar una nueva dirección en memoria donde se almacenen los datos de forma contínua, y esto sucede igual al momento de realizar eliminaciones de elementos. Es por esto que una lista enlazada disponibiliza la rapida eliminación e inserción de datos.
 
-- Los arreglos como dijimos, son bastante buenos a la hora de acceder a elementos de forma aleatoria, ya que almacenan los elementos de forma contínua en memoria y está optimizado para acceder a los elementos de forma rápida.
+- Los arreglos como dijimos, son bastante buenos a la hora de acceder a elementos de forma aleatoria, ya que almacenan los elementos de forma contínua en memoria y está optimizado para su lectura.
 
 
 - También los arreglos utilizan un poco menos de memoria al almacenar los elementos, ya que no necesitamos almacenar la dirección de memoria del elemento sucesor, como lo hace la lista enlazada y es por esto que un arreglo es más utilizado en la mayoría de los casos.
