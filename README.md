@@ -39,6 +39,7 @@ Antes de empezar a conocer sobre estructuras de datos y algoritmos, es important
 
 Entonces, cuando creamos una variable en Python, esta se almacena en el stack, pero si creamos un objeto, este se almacena en el heap pero su dirección estará almacenada en el stack.
 
+
 # Estructuras de datos
 
 Ya que conocemos algunos de los algoritmos más importantes y tenemos una comprensión general de como almacena nuestra computadora los datos de nuestro programa, es hora de conocer las estructuras de datos y lo más importante, saber cuándo utilizar cada una de ellas.
@@ -73,3 +74,9 @@ Al igual que un arreglo, esta estructura de datos nos permite almacenar un conju
 - También los arreglos utilizan un poco menos de memoria al almacenar los elementos, ya que no necesitamos almacenar la dirección de memoria del elemento sucesor, como lo hace la lista enlazada y es por esto que un arreglo es más utilizado en la mayoría de los casos.
 
 **Podemos concluir que ambas estructuras de datos tienen sus ventajas y desventajas, por lo que es importante saber cuándo utilizar cada una de ellas e incluso podemos hacer uso de una estructura de datos híbrida, donde almacenamos un conjunto de listas enlazadas dentro de un arreglo.**
+
+### Stack
+Es una estuctura de datos que almacena datos y podemos eliminar o agregar datos dentro de una pila, para ser más simples, queremos empezar a leer libros y en nuestro escritorio dejamos un espacio libre para ir colocando los libros que queremos leer en una pila (un libro encima de otro), entonces empezamos a comprar libros y vamos agregándolos en el espacio del escritorio en forma de pila y cuando vayamos leyendo libros, iremos sacándolos o apilando más libros interesantes para ir leyendo. Siempre el último libro será la prioridad para leer y el primer libro ingresado en el stack y el primer libro será el último en leer.
+
+
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221219100314/stack.drawio2.png" alt="stack imagen referencial" width="280">
