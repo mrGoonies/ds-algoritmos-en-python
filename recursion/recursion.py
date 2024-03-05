@@ -1,6 +1,7 @@
 """ Implementando recursion en Python """
 
 def infinite_loop(i):
+    """ Creando una función recursiva 
     print(i)
     infinite_loop(i-1)
 

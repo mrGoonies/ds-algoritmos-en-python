@@ -80,3 +80,8 @@ Es una estuctura de datos que almacena datos y podemos eliminar o agregar datos 
 
 
 <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221219100314/stack.drawio2.png" alt="stack imagen referencial" width="280">
+
+Nuestra computadora también utiliza esta estructura de datos al momento de programar y sobretodo a la hora de llamar funciones, el cual es llamado *Call Stack*. Este proceso hace referencia a todos los procesos que suceden en nuestro programa y para ejemplificar podemos ver el código que se encuentra dentro del directorio **recursion/stack.py*. En ese ejemplo de código, hacemos tres funciones, una función llama a dos funciones extras, donde cada proceso de almacenará en memorie en forma de Stack o pila. 
+
+### Divide y conquistaras
+
